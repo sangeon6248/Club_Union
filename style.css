@@ -9,8 +9,28 @@
 }
 
 h1{
+    display: flex;
     font-size: 48px;
     font-weight: 100;
+}
+#top_layout{
+    background: #000;
+}
+#top_layout .top_wrap .logo_wrap{
+    margin-left: 30px;
+    width: 100%;
+    height: 100px;
+    background: url(/42대\ 동연\ 로고.jpg) no-repeat;
+}
+
+.header{
+    background: red;
+    width: 100%;
+    height: 100px;
+}
+
+.header > h2{
+    flex: 1;
 }
 
 .content1{
@@ -43,7 +63,7 @@ h1{
     height: 540px;
 }
 
-.header{
+.body_header{
     display: flex;
     width: 1280px;
     margin: auto;
