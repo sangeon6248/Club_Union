@@ -10,4 +10,9 @@ public class FirstController {
     public String getHello(){
         return "Hello World!";
     }
+
+    @GetMapping("/test123")
+    public String getTest(){
+        return "Test22 Page";
+    }
 }
