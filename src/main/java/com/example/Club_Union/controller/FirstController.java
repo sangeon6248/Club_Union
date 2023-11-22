@@ -11,8 +11,8 @@ public class FirstController {
         return "Hello World!";
     }
 
-    @GetMapping("/test")
+    @GetMapping("/test123")
     public String getTest(){
-        return "Test Page";
+        return "Test22 Page";
     }
 }
